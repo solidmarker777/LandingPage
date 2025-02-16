@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
+    text-align: center;
 }
 .header{
     display: flex; 
@@ -32,21 +33,29 @@ a, h3 {
     justify-content: center;
     background-color: rgba(36, 43, 99, 0.994);
     color: white;
-
+    padding: 32px;
+    gap: 16px;
+}
+button{
+    background-color: rgb(75, 123, 206);
+    padding: 6px;
+    margin: 10px 10px 10px 0;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0px;
 }
 .Bl1Left {
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
 }
 .Bl1Right{
     display: flex; 
     flex-direction: row;
     justify-content: flex-end;
-    padding: 16px;
 }
 
 .Bl2Heading {
@@ -54,13 +63,18 @@ a, h3 {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    padding: 36px;
 }
 
 .Bl2Pictures{
     display: flex;
     justify-content: center;
     gap: 52px;
+    padding: 48px;
 }
 .picture {
     max-width: 200px;
+}
+img {
+    border-radius: 10px;
 }
