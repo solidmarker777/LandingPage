@@ -55,15 +55,12 @@ a, h3 {
     justify-content: center;
     align-items: flex-start;
 }
-.Bl2Pictures {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 
+.Bl2Pictures{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
-
-.Bildunterschriften {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.picture {
+    max-width: 200px;
 }
